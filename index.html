@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Corinthia&family=Luckiest+Guy&family=Montserrat:wght@400;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+		<meta name="author" content="Sojka Tomasz" />
+		<meta
+			name="keywords"
+			content="aplikacja, pogoda, miasto, aktualna, świat, temperatura, opady, wiatr, prognoza, deszcz, słońce, wiatr, chmury."
+		/>
+		<meta
+			name="description"
+			content="Aplikacja pogodowa na świecie, pokazująca aktualne warunki atmosferyczne w każdym mieście z intuicyjnym interfejsem."
+		/>
+		<title>Weather APP</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="header">
+				<h1>Weather APP</h1>
+				<div class="header-info">
+					<div>
+						<h3 class="name-city">Kraków</h3>
+						<input type="text" placeholder="Wpisz nazwę miasta..." /><button>
+							Szukaj
+						</button>
+						<p class="error">Błąd</p>
+					</div>
+					<img
+						src="./img/unknown.png"
+						alt="Obrazek obrazujacy pogodę"
+						class="icon"
+					/>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="headings">
+					<p>Weather</p>
+					<p>Temperature</p>
+					<p>Humidity</p>
+				</div>
+				<div class="data-weather">
+					<p class="weather">Clear</p>
+					<p class="temperature">18°C</p>
+					<p class="humidity">62%</p>
+				</div>
+			</div>
+		</div>
+		<span class="author">Autor</span>
+		<span class="name">Sojka Tomasz</span>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
